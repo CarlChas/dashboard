@@ -1,0 +1,130 @@
+/* input,textarea {
+  display:block 
+} */
+
+body {
+  margin: 0;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center; 
+}
+
+#myTime {
+  text-align: center;
+}
+
+#nameContainer {
+  text-align: center;
+}
+
+#myTitle {
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+
+#myTitle:focus {
+  border: none;
+  outline: none;
+  color: crimson;
+}
+
+#myDashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+.mySegment {
+  flex: 1;
+  width: 25%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.329);
+  border: 1px solid;
+  border-radius: 10%;
+  border-color: transparent;
+  margin: 1%;
+}
+
+.firstSegment {
+  display: flex;
+}
+
+button {
+  margin: 1%;
+  border-radius: 20%;
+  border: transparent;
+  order: 1;
+}
+
+#newLink {
+  width: 40%;
+  margin-left: 30%;
+}
+
+#myShortcuts {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#myShortcuts>li {
+  width: 80%;
+  background-color: azure;
+  border-radius: 10%;
+  text-align: start;
+  margin-left: 5%;
+  margin-bottom: 15%;
+  padding: 5%;
+}
+
+.myUrl {
+  color: black;
+  text-decoration: none;
+
+}
+
+.antiUrl {
+  border-color: brown;
+  border-style: solid;
+  float: right;
+  margin: 0;
+}
+
+#custom>img {
+  max-width: 90%;
+  max-height: 250px;
+  border-radius: 10%;
+  /* object-fit: contain; */
+  margin-bottom: 5%;
+}
+
+#myNotes {
+  border: none;
+  outline: none;
+  border-color: transparent;
+  max-width: 90%;
+  /* margin-left: 5%; */
+  margin-bottom: 5%;
+  /* padding-bottom: 100%; */
+  padding: 0%;
+  /* border-radius: 10%; */
+  inline-size: 90%;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+#myNotes:focus {
+  outline: none;
+}
