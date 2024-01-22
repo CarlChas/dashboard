@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <section id="app">
+    <article id="myTime"></article>
+    <article id="nameContainer">
+      <input type="text" id="myTitle"></input>
+    </article>
+    <section id="myDashboard">
+      <article class="mySegment firstSegment">
+        <article id="myShortcuts">
+          <h2>Links</h2>
+          <button id="newLink">New Link</button>
+        </article>
+      </article>
+      <article class="mySegment">
+        <h1>Weather</h1>
+        <article id="weather"></article>
+      </article>
+      <article class="mySegment">
+        <h1>Custom</h1>
+        <article id="custom"></article>
+      </article>
+      <article class="mySegment">
+        <h1>Notes</h1>
+        <textarea id="myNotes"></textarea>
+      </article>
+    </section>
+    <button id="splash">Random Splash</button>
+  </section>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
